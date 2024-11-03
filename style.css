@@ -1,6 +1,6 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
+    margin: 5;
 }
 
 .topo-container {
@@ -14,12 +14,13 @@
     text-align: left;
     color: white;
     font-size: 18px;
+    padding: 3px;
+    
 }
 
-.topo-container img {
-    display: block;
-    margin: 5px auto;
-
+img {
+    display: block; 
+    margin: 15px auto;
 }
 
 .sobre {
@@ -27,13 +28,106 @@
     list-style-type: none;
     background-color: #2aac35;
     justify-content: right;
-    margin-bottom: 0;
+    padding: 5px;
 }
 
 .sobre a {
     padding-right: 15px;
-    text-decoration: none;
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.body-container{
+    margin: 5px;
+    margin-top: 10px;
+    
+}
+
+.texto {
+    text-align: justify;
+    line-height: 2.0;
+    padding: 25px;
+}
+
+.legenda {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #949494;
+    text-align: center;
+}
+
+.cursos-lista {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.expande {
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+.expande li {
+    color: black;
+    line-height: 1.5;
+}
+
+summary { 
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #2aac35;
+    margin-bottom: 2px;
+    
+}
+
+summary:hover {
+    background-color: #afafaf;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #0e5514;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    line-height: 1.5;
+}
+
+#volta-topo {
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(10, 124, 25);
+    background-color: rgb(139, 214, 155);
+    color: black;
+}
+
+#volta-topo:visited{
+    color: inherit;
+}
+
+.redes-sociais {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+}
+
+.redes-sociais img{
+    height: 50px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding-right: 20px;
+}
 
